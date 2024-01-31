@@ -1,14 +1,17 @@
+import React from 'react';
 import './App.css';
-
-import Navbar from "./components/Navbar";
-
+import Nav from "./components/Nav"
+import Header from "./components/Header"
+import Menu from './components/Menu'
+import Footer from "./components/Footer"
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Routing />
-      <Footer />
+      <Nav />
+      <Header/>
+      <Menu/>
+      <Footer/>
     </>
   );
 }
